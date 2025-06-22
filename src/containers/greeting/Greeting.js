@@ -2,11 +2,9 @@ import React, {useContext} from "react";
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
-import landingPerson from "../../assets/lottie/landingPerson";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import {illustration, greeting} from "../../portfolio";
+import {illusration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Greeting() {
@@ -56,7 +54,7 @@ export default function Greeting() {
           <img
             alt="Sai Kumar Bachireddy"
             src={require("./profile.png")}
-            style={{ width: "950px", height: "auto" }}
+            style={{ width: "9/Users/saikumarbachireddy/Downloads/profile.png50px", height: "auto" }}
             className="profile-photo"
           />
         </div>
