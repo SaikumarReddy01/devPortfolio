@@ -35,10 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/saikumarbachi/",
   gmail: "saikumarbachi@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/saikumar.bachi.5",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -47,8 +44,8 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CLOUD-FIRST DEVELOPER WHO LOVES BUILDING SMART, SCALABLE SOLUTIONS",
+  title: "Skills   ",
+  subTitle: "</>",
   skills: [
     emoji(
       "⚡ Build cloud-native applications and data pipelines with AWS, Docker, and CI/CD"
@@ -143,7 +140,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Backend",
@@ -151,15 +148,15 @@ const techStack = {
     },
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "40%" //Insert relative proficiency in percentage
+      progressPercentage: "60%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Programming",
-      progressPercentage: "80%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Cloud",
-      progressPercentage: "75%"
+      progressPercentage: "85%"
 
     }
   ],
@@ -357,7 +354,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "I’m on the hunt for full-time positions in Software Engineering. If you’re aware of any exciting opportunities, have questions, or just want to get in touch, please reach out",
   number: "+1-352-664-0820",
   email_address: "saikumarbachi@gmail.com"
 };
