@@ -51,13 +51,15 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-          <img
-            alt="Sai Kumar Bachireddy"
-            src={require("./profile.png")}
-            style={{ width: "9/Users/saikumarbachireddy/Downloads/profile.png50px", height: "auto" }}
-            className="profile-photo"
-          />
-        </div>
+            <img
+              alt="Sai Kumar Bachireddy"
+              src={require("./profile.png")}
+              className="profile-photo"
+            />
+          </div>
+
+
+
 
         </div>
       </div>
